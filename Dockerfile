@@ -9,7 +9,4 @@ RUN echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config
 RUN echo root:li6803509|chpasswd
 RUN chmod 755 /1.sh
 EXPOSE 80
-EXPOSE 8888
-EXPOSE 443
-EXPOSE 6800
 CMD  /1.sh
